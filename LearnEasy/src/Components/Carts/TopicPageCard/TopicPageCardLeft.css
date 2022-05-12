@@ -1,0 +1,17 @@
+.TopicPageCardLeft.card {
+  margin: auto;
+  width: 9rem;
+  height: 9rem;
+  text-align: center;
+  background-color: #f8f8f8;
+  border: none;
+}
+/* .TopicPageCardLeft.card a {
+  color: black;
+  text-decoration: none;
+} */
+.TopicPageCardLeft.card svg {
+  margin: auto;
+
+  text-align: center;
+}

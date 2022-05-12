@@ -1,0 +1,171 @@
+ul.cpul {
+  list-style: none;
+  margin: auto;
+  /* padding: 0; */
+
+  padding-top: 1rem;
+}
+.coursepagesection4heading {
+  margin-bottom: 15px;
+}
+li.cpulli {
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+.coursepagesection2Col1.col-md-3 > button {
+  padding: 15px 22px 15px 22px;
+  font-weight: 600;
+  margin: auto;
+  color: white;
+  background-color: #f14d5d;
+  border-style: none;
+  border-radius: 5px 5px 5px 5px;
+}
+.cpcol8heading {
+  margin-bottom: 25px;
+}
+.coursepagesection2 {
+  padding: 15px;
+  margin: 25px 0 25px 0;
+}
+h4.cpcol8heading {
+  padding-bottom: 8px;
+}
+
+.cpul .cpulli a {
+  text-decoration: none;
+  color: black;
+}
+.coursepagesection3navitem.nav-item a li {
+  list-style: circle;
+
+  /* background: #f5ac00; */
+}
+.coursepagesection3navitem.nav-item {
+  margin-right: 15px;
+}
+.coursepagesection3navitem2.nav-item {
+  margin-right: 15px;
+}
+a.coursepagesection3navitem2link.nav-link:hover {
+  color: #fff;
+  background-color: #0d6efd;
+}
+a.coursepagesection3navitem2link.nav-link {
+  color: black;
+  font-weight: 600;
+}
+.coursepagesection3 {
+  padding: 15px;
+}
+.coursepagesectionRow.row {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.coursepagesection3navitem.nav-item > a {
+  font-weight: 600;
+}
+.coursepagesection4 {
+  padding: 15px;
+}
+.coursepagecol2developmentcard {
+  padding-bottom: 2px;
+
+  border-bottom: 1px solid #d1d7dc;
+  padding-top: 2px;
+}
+.coursepagesection4heading h2 {
+  font-weight: 700;
+  /* line-height: 1.2; */
+  /* letter-spacing: -.02rem; */
+  font-size: 26px;
+}
+.refundNotice {
+  background: #fff;
+  display: flex;
+  border: 1px solid #d1d7dc;
+  padding: 7px 0 7px 12px;
+}
+
+.refundNoticeheading {
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  font-size: 17px;
+  align-self: center;
+}
+.refundNotice > span {
+  margin-right: 10px;
+}
+
+.filterpannelBUttons {
+  display: flex;
+  /* margin: 0 -.4rem; */
+}
+.FilterPannel > span {
+  display: inline-block;
+  align-self: center;
+  text-align: right;
+  color: #6a6f73;
+}
+.filterpannelBUttons button {
+  margin: auto;
+  color: #1c1d1f;
+  font-weight: 600;
+  background-color: transparent;
+  border: 1px solid #1c1d1f;
+  padding: 6px 19px 6px 19px;
+}
+.filterpannelBUttons button > span {
+  margin-right: 5px;
+}
+.MostPopular {
+  /* margin: auto; */
+  color: #1c1d1f;
+  /* font-weight: 600; */
+  background-color: transparent;
+  border: 1px solid #1c1d1f;
+  padding: 8px 38px 8px 2px;
+  margin-left: 14px;
+}
+.coursepagecol2developmentcard.bottomBorder {
+  border: none;
+}
+.coursepagesection3navitem a ul li::before {
+  content: "\2022";
+  color: #f5ac00;
+  display: inline-block;
+
+  width: 18px;
+}
+.coursepagesection3navitem.nav-item a ul li {
+  list-style: none;
+}
+.coursepagesection2Col1.col-md-3 {
+  display: inline-grid;
+}
+
+.AccordionHeader button {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-weight: 600;
+}
+.AccordionCoursePage .AccordionHeader button {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.AccordionCoursePage .AccordionHeader button:focus {
+  border-color: none;
+  box-shadow: none;
+}
+
+.AccordionCoursePage .AccordionHeader button:not(.collapsed) {
+  color: initial;
+  background-color: initial;
+  box-shadow: none;
+}
+.AccordionCoursePage .AccordionHeader button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  transform: rotate(-180deg);
+}

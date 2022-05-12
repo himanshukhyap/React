@@ -1,0 +1,75 @@
+.headerNavbar {
+  position: relative;
+  background: #fff;
+  padding: 15px;
+}
+/* button.headerserachbutton {
+  position: absolute;
+  margin: 2px 0 0 357px;
+  border: none;
+  background: #f5f8fb;
+  color: #120f2d;
+} */
+.headernavmarginsecond {
+  margin: 0;
+}
+input.headermr2.form-control {
+  border-radius: none;
+  background: #f5f8fb;
+  padding-left: 15px;
+  border-color: #f5f8fb;
+  height: 41px;
+}
+form.headersearch {
+  margin-right: 445px;
+
+  width: 26rem;
+  position: relative;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+}
+.me-auto.headernavtop.navbar-nav {
+  margin: auto;
+}
+.headernavborder {
+  border-right: 1px solid #dddddd;
+  /* height: 47px; */
+  vertical-align: middle;
+  /* margin-top: 0px; */
+}
+a.headernavlinkborder.nav-link {
+  margin-right: 17px;
+  margin-left: 17px;
+}
+a.headernavbrand.navbar-brand {
+  color: #120f2d;
+  /* margin-left: 15px; */
+  margin: auto;
+  /* padding: 0; */
+}
+.headerdropdown.nav-item.dropdown a#collasible-nav-dropdown {
+  color: #120f2d;
+  font-weight: 500;
+}
+
+svg.hdsavicon {
+  margin-right: 8px;
+  color: #120f2d;
+  /* padding-right: 0px; */
+}
+.headernavborder span {
+  color: #120f2d;
+}
+.headernavlinkborder span {
+  color: #120f2d;
+}
+button.headerserachbutton {
+  position: absolute;
+  border: none;
+  background: #f5f8fb;
+  width: 47px;
+  height: 41px;
+  margin: -41px 0 0px 366px;
+}

@@ -1,0 +1,20 @@
+.Studentsalsobought4 a {
+  margin: auto;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  /* justify-content: center; */
+}
+.Studentsalsobought3 span {
+  margin-right: 8px;
+}
+.Studentsalsobought2 span {
+  margin-right: 5px;
+}
+.Studentsalsobought2 div {
+  width: max-content;
+}
+.Studentsalsobought2 span:last-child span {
+  display: list-item;
+  margin-left: 11px;
+}

@@ -1,0 +1,30 @@
+.ReviewsImg {
+  justify-content: center;
+  border: 1px solid;
+
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  background: black;
+  color: white;
+}
+
+.ReviewsButtonIco {
+  position: relative;
+
+  background: black;
+  color: white;
+  border: none;
+}
+.ReviewsInput:focus {
+  color: initial;
+
+  border-color: initial;
+  outline: 0;
+  box-shadow: initial;
+}
+.MostPopularButton:focus {
+  outline: none;
+  box-shadow: none;
+}

@@ -1,0 +1,59 @@
+.TooltipRight {
+  width: auto;
+  padding: 15px;
+}
+.TooltipRight h4 {
+  margin-bottom: 10px;
+}
+.TooltipRightDiv.List {
+  display: flex;
+  font-weight: 300;
+  margin-bottom: 3px;
+}
+.TooltipRightDiv.List span:nth-child(2) {
+  padding-left: 8px;
+}
+.TooltipRightDiv.List span:nth-child(3) {
+  padding-left: 8px;
+}
+.TooltipRightDiv1 span {
+  margin-left: 8px;
+  color: #1e6055;
+}
+.TooltipRightDiv1 {
+  color: #1e6055;
+  margin-bottom: 3px;
+}
+.TooltipRightDiv2 {
+  margin-bottom: 3px;
+}
+.TooltipRightDivCheck span:nth-child(1) {
+  margin-right: 8px;
+}
+.TooltipRightDivCheck span:nth-child(2) {
+}
+.TooltipRightDivCheck {
+  display: flex;
+  vertical-align: middle;
+}
+.TooltipRightDivButton a {
+  border: 1px solid;
+
+  border-radius: 50%;
+  padding: 10px;
+  color: black;
+}
+.TooltipRightDivButton {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.TooltipRightDivButton button {
+  background-color: #8710d8;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 14px 0 14px 0;
+  width: 75%;
+  position: relative;
+}

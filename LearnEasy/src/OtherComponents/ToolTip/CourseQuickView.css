@@ -1,0 +1,38 @@
+.courseQuickViewMiddle span:nth-child(1) {
+  margin-right: 9px;
+}
+.courseQuickViewBottom > button {
+  background-color: #8710d8;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 14px 0 14px 0;
+  width: 75%;
+  position: relative;
+}
+.courseQuickView {
+  border: 1px solid;
+  /* border: none; */
+  width: 400px;
+  padding: 15px;
+  display: block;
+  background: #fff;
+  z-index: 1100;
+  margin: auto;
+}
+.courseQuickViewMiddle {
+  display: flex;
+  line-height: 32px;
+}
+.courseQuickViewBottom {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.courseQuickViewBottom a {
+  border: 1px solid;
+  -webkit-text-emphasis: double-circle;
+  border-radius: 50%;
+  padding: 10px;
+  color: black;
+}

@@ -1,0 +1,17 @@
+.Featuredreview {
+  padding: 15px;
+}
+.FeaturedreviewImg {
+  margin-left: 14px;
+}
+.FeaturedreviewLike {
+  width: 50px;
+  height: 50px;
+  display: flex;
+}
+.FeaturedreviewLike svg {
+  margin: auto;
+}
+.Featuredreview a {
+  float: left;
+}

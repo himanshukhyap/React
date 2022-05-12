@@ -1,0 +1,51 @@
+.ProductDetailsPageCard1 span {
+  margin-right: 10px;
+}
+
+.ProductDetailsPageCard2 {
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ProductDetailsPageCard2 span {
+  margin-right: 15px;
+}
+.ProductDetailsPageCard2 {
+  font-weight: 600;
+}
+.text-decoration-none.border-bottom {
+  color: #5624d0;
+  font-weight: 600;
+}
+.ProductPageSection1 ::marker {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.ProductPageSection1 {
+  padding: 15px;
+  margin: 45px 0 30px 0px;
+}
+
+.StudentAlsoBoughtSection ul li div {
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+.ProductPageSection7SVGdiv {
+  width: fit-content;
+  position: relative;
+  overflow: hidden;
+
+  margin: -25px 0 -11px 59px;
+
+  opacity: 1;
+  z-index: 2;
+  /* box-shadow: 0 4px 8px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 24%); */
+  background: white;
+}
+.ProductPageSection7 button {
+  background-color: #a435f0;
+  /* border: none; */
+  height: 37px;
+  color: white;
+  font-weight: 600;
+}

@@ -1,0 +1,79 @@
+button.productsidebarButtonAddtoCart {
+  width: 18rem;
+  height: 50px;
+  background-color: #8710d8;
+  color: white;
+  font-weight: 600;
+  font-size: larger;
+  border: none;
+}
+button.productsidebarheartCart {
+  width: 3rem;
+  height: 50px;
+  font-size: larger;
+}
+button.productsidebarBuy {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.04);
+
+  color: black;
+  font-weight: 600;
+  font-size: larger;
+  border: none;
+  margin-top: 10px;
+}
+.ProductPageSidebarCardsavMmargin svg {
+  margin-right: 15px;
+}
+.ProductPageSidebarCardLink1 {
+  font-weight: 700;
+  border-bottom: 1px solid;
+  color: black;
+}
+.ProductPageSidebarCardLink2 {
+  font-weight: 700;
+  border-bottom: 1px solid;
+  color: black;
+}
+.card-body.ProductPageSidebarCardFormCardBody {
+  /* display: none; */
+}
+
+.ProductPageSidebarCardLink1:hover
+  + .card-body.ProductPageSidebarCardFormCardBody {
+  display: block;
+}
+
+.ProductPageSidebarCardForm {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  padding: 0;
+}
+input.ProductPageSidebarCardFormControl {
+  width: 70%;
+  height: 44px;
+  padding-left: 14px;
+}
+button.ProductPageSidebarCardFormButton {
+  border: none;
+  width: 30%;
+}
+.PPSCCArdbody1 span {
+  display: inline-flex;
+  padding-right: 10px;
+
+  vertical-align: middle;
+}
+.PPSCCArdbody2 span {
+  display: inline-flex;
+  padding-right: 7px;
+  color: #b32d0f;
+  vertical-align: middle;
+}
+.ProductPageSidebarCard {
+  top: 0;
+  position: sticky;
+  overflow: hidden;
+}

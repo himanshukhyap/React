@@ -1,0 +1,79 @@
+img.card-img-top.cpccardimg {
+  width: 385px;
+  height: 291px;
+  /* margin: auto; */
+}
+.cpccard.card {
+  display: inline-flex;
+  flex-direction: row;
+}
+button.cardratingbutton {
+  background-color: #f3ca8c;
+  color: #4d3105;
+  /* color: #4d3105; */
+  border: none;
+  font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto,
+    segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02rem;
+  /* font-size: 1.2rem; */
+  padding: 0px 3px 0px 6px;
+}
+.cpccardtitle {
+  font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto,
+    segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 25px;
+  letter-spacing: -0.02rem;
+  padding: 0;
+  margin: auto;
+}
+p.cpccardtext2.card-text {
+  font-size: 14px;
+  margin: 0px 0 6px 0;
+}
+p.cpccardtext3.card-text span:nth-child(1) {
+  color: #1e6055;
+}
+p.cpccardtext3.card-text span:nth-child(2) {
+  color: #1e6055;
+}
+/* p.cpccardtext3.card-text > span:nth-child(3) li {
+  color: #6a6f73;
+  display: flex;
+ 
+} */
+p.cpccardtext3.card-text > span:nth-child(4) ul {
+  display: inline-flex;
+  padding-left: 17px;
+}
+p.cpccardtext3.card-text > span:nth-child(4) ul > li {
+  padding-right: 22px;
+  display: list-item;
+}
+.cpccardtext4.card-text span {
+  padding-right: 9px;
+}
+.cpccardtext4.card-text span:nth-child(1) {
+  color: #b4690e;
+}
+p.cpccardtext5.card-text {
+  font-weight: 700;
+  font-size: 1.6rem;
+  position: absolute;
+  bottom: 0;
+}
+.CoursePageCardCardTitle.card-title.h5 {
+  padding: 0;
+  margin: auto;
+}
+p.cpccardtext1.card-text {
+  margin-bottom: 6px;
+}
+p.cpccardtext3.card-text {
+  margin: 0;
+}

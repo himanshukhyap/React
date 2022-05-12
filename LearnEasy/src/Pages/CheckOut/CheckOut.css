@@ -1,0 +1,8 @@
+.CheckOut input[type="text"]:focus {
+  color: initial;
+  background-color: initial;
+  border-color: initial;
+
+  outline: none;
+  box-shadow: none;
+}

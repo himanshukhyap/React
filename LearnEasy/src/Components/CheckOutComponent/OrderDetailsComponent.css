@@ -1,0 +1,17 @@
+.Wallet {
+  display: none;
+}
+.NetBanking {
+  display: none;
+}
+
+.CreditCard {
+  display: ;
+}
+.Upi {
+  display: none;
+}
+
+#flexRadioDefault1:checked + .NetBanking {
+  display: block;
+}

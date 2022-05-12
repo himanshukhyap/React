@@ -1,0 +1,132 @@
+.homepagebannersection {
+  background-image: url(https://demo.themewinter.com/wp/courselog/wp-content/uploads/2020/12/hero_area_image.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #58566b;
+}
+/* .homepagebannersection:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#f4f4fc),
+    to(rgba(202, 202, 218, 0.2))
+  );
+  background-image: -o-linear-gradient(left, #f4f4fc, rgba(249, 249, 253, 0.2));
+  background-image: linear-gradient(
+    to right,
+    #f4f4fc,
+    rgba(249, 249, 253, 0.2)
+  );
+} */
+h3.homepagesubtitle {
+  color: #f76005;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  margin: 0 0 13px 0;
+}
+h2.homesection-title {
+  color: #120f2d;
+  margin: 0 0 15px 0;
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.heading__description {
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;
+  line-height: 24px;
+}
+.heading__description p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.course-search {
+  margin-bottom: 20px;
+}
+.elementor-widget-container {
+  margin: 0 0 10px 0;
+}
+input.mr-2.form-control {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23px;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #f76005;
+  border-radius: 5px 5px 5px 5px;
+  height: 60px;
+  padding: 0 0 0 20px;
+}
+button.btn.btn-primary {
+  position: relative;
+  border: none;
+  background: #f14d5d;
+  width: 60px;
+  height: 60px !important;
+  margin-left: -5px;
+}
+.homecheckicon ul {
+  padding: 0;
+
+  list-style: none;
+}
+.hide span {
+  padding-left: 13px;
+  margin: 0;
+}
+.homepagetextareaa {
+  padding: 13px 12px 13px 12px;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #ffffffcc 0%, #ffffffcc 42%);
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #2878eb;
+  border-radius: 6px 6px 6px 6px;
+  width: 272px;
+  position: relative;
+}
+img.imagggg {
+  margin: 24px 4px 0px 78px;
+  vertical-align: middle;
+}
+.homepagebannerpadiing.row {
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+}
+.homepagecolsecond {
+  margin-left: 7rem;
+}
+.homepagecolfirst {
+  margin-right: 1rem;
+  margin-left: 6rem;
+}
+
+.elementor {
+  text-align: center;
+  position: absolute;
+  margin: -145px 0 0 47px;
+}
+.homepagetextareaa h3 span {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  color: #2878eb;
+}
+.homepagetextareaa p {
+  color: #a09fab;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+}

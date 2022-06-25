@@ -1,0 +1,78 @@
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	
+	 $.ajax({
+
+                url: "https://localhost:44360/api/userdata/GetUser",
+                type: 'get',
+
+                success: function (result) {},
+                error: function () {
+                    alert("error");
+                }
+            });
+			
+			
+
+			
+			 $.ajax({
+
+                    url: "https://localhost:44360/api/userdata/Post",
+                    type: 'post',
+                    data: JSON.stringify({
+                        FirstName: document.getElementById('fname').value,
+                        LastName: document.getElementById('lname').value,
+                        Username: document.getElementById('uname').value,
+                        Password: document.getElementById('password').value
+                    }),
+                    contentType: 'application/json; charset=utf-8',
+                    success: function (result) {
+                        console.log(result)
+
+                        window.location.reload()
+                    },
+                    error: function () {
+                        alert("error");
+                    }
+                });
+            });
+			
+			
+			
+			
+			
+			$.ajax({
+                url: "https://localhost:44360/api/userdata/Delete/" + YourID,
+                type: 'delete',
+
+                success: function (r) {
+                    window.location.reload()
+
+                },
+                error: function () {
+                    alert("error");
+                }
+            });
+			
+			
+			
+			
+			 $.ajax({
+
+                url: "https://localhost:44360/api/userdata/Put/" + idd,
+                type: 'put',
+                data: JSON.stringify({
+                    FirstName: document.getElementById('fname').value,
+                    LastName: document.getElementById('lname').value,
+                    Username: document.getElementById('uname').value,
+                    Password: document.getElementById('password').value
+                }),
+                contentType: 'application/json; charset=utf-8',
+                success: function (result) {
+                    console.log(result)
+                      window.location.reload()
+                },
+                error: function () {
+                    alert("error");
+                }
+            });

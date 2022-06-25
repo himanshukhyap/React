@@ -1,0 +1,10 @@
+Difference between (render and component) prop
+
+
+Render : first time component call and second time call the component, whole component no load and only any update in compoenet will be update in second call.
+Component: whole component call again and again.
+
+So the conclusion is, there is not performance different between component and render prop if you are use 
+component={AppComponent} directly, 
+if you want to assign some props to AppComponent, 
+use render={() => <AppComponent {...props}/> } instead of component={() => <AppComponent {...props}/> }

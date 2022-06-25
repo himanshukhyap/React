@@ -5,7 +5,7 @@ export default function UseMemo() {
     const [item, setitem] = useState(0)
 
 
-    let useeffect = useMemo(() => {
+    let usememo = useMemo(() => {
      //   console.log(Count)
         return Count
     }, [item])
@@ -13,7 +13,7 @@ export default function UseMemo() {
 
     return (
         <div>
-            <h1>   usememo : {useeffect}</h1>
+            <h1>   usememo : {usememo}</h1>
             <br />
             <br />
             <h1> Count :  {Count}</h1>

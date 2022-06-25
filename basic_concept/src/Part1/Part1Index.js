@@ -5,7 +5,7 @@ import UseState from './UseState'
 import ExpenseForm from './ExpenseForm'
 import UseEffect from './UseEffect'
 
-export default  Part1Index=()=> {
+ function  Part1Index() {
   return (
     <div>
       {/* <ComA/><ComB/>
@@ -16,10 +16,11 @@ export default  Part1Index=()=> {
     <li>7-2= {subtract(7, 2)}</li>
     <li>5/2= {divide(5, 2)}</li>
   </ul> */}
-      {/* <UseState/> */}
-      {/* <NotesIndex/> */}
-      {/* <ExpenseForm/> */}
-      {/* <UseEffect/> */}
+   <UseState/> 
+     <NotesIndex/> 
+       <ExpenseForm/> 
+     <UseEffect/> 
     </div>
   )
 }
+export default Part1Index;

@@ -1,0 +1,27 @@
+  const axios = require('axios');
+or 
+import axios from 'axios';
+
+
+  async function getemployee() {
+    try {
+      const response = await axios.get('https://localhost:44388/api/employee/GetAllEmployee');
+  
+      
+      dispatch(Allemployeedata(response.data))
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
+
+
+
+  axios.post('https://localhost:44388/api/employee/NewData', data)
+          .then(function (response) {
+         //   console.log(response);
+            props.fun(true)
+          })
+          .catch(function (error) {
+            console.log(error);
+          });

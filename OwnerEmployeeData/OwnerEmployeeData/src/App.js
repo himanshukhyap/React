@@ -13,7 +13,7 @@ import Registration from "./EmployeeLogin/Registration";
 
 function App() {
 
-  const loaderstate = useSelector((state) => state.loader);
+  const loaderstate = useSelector((state:any) => state.loader);
 
   function RequireAuth({ children }: { children: JSX.Element }) {
 

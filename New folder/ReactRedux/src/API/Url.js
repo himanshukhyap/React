@@ -1,0 +1,7 @@
+export const DataUrl = "https://dummyjson.com/products/1"
+export const AuthUrl = "https://localhost:44334/api/Todo/Authentication"
+export const GetTaskListUrl = "https://localhost:44334/api/Todo/GetTask?userid="
+export const PostTaskUrl = "https://localhost:44334/api/Todo/posttask"
+export const UpdateTaskurl = "https://localhost:44334/api/Todo/UpdateTask"
+export const DeleteTaskUrl = "https://localhost:44334/api/Todo/DeleteTask?TaskId="
+export const PostUserUrl = "https://localhost:44334/api/Todo/PostUser"

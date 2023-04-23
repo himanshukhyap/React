@@ -1,13 +1,16 @@
-import './App.css';
 
-import HOC from './Questions/HOC';
+import './App.css';
+import Form from './Form/Form';
+import IndexRouting from './Routing/IndexRouting';
+
 function App() {
 
 
   return (
     <div className="App">
-    <HOC/>
-    
+    <IndexRouting/>
+<Form/>
+
     </div>
   );
 }

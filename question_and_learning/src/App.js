@@ -1,6 +1,7 @@
 
 import './App.css';
 import Form from './Form/Form';
+import IndexRedux from './Redux/IndexRedux';
 import IndexRouting from './Routing/IndexRouting';
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     <div className="App">
       <IndexRouting />
       <Form />
-
+      <IndexRedux />
     </div>
   );
 }

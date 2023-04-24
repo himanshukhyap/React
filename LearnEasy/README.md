@@ -1,2 +1,0 @@
-# LearnEasy
-Created with CodeSandbox

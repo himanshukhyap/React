@@ -1,11 +1,12 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
 import { useSelector } from 'react-redux'
-import { decrement, Increment } from './ActionWhat'
+import { decrement, increment } from './CounterSlice'
+
 
 
 export default function IndexRedux() {
-    const mystate = useSelector(state => state.Reducer)
+    const mystate = useSelector(state => state.counter.value)
     const dispatch = useDispatch()
 
     return (
@@ -25,7 +26,7 @@ export default function IndexRedux() {
             />
             <button
                 className="py-2 border px-3 bg-dark text-white text-decoration-none shadow"
-                onClick={() => dispatch(Increment())}
+                onClick={() => dispatch(increment())}
             >
                 <span className="fw-bold fs-4">+</span>
             </button>

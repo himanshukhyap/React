@@ -6,8 +6,9 @@ export const CounterSlice = createSlice({
     value: 0
   },
   reducers: {
-    increment: state => {
-    
+    increment:                      // Action-Type
+    state => {                      //Reduction-action
+
       state.value += 1
     },
     decrement: state => {
@@ -23,3 +24,18 @@ export const CounterSlice = createSlice({
 export const { increment, decrement, incrementByAmount } = CounterSlice.actions
 
 export default CounterSlice.reducer
+
+
+// const initialState = 0;                                   //initial value
+//   const Reducer = (state=initialState, action) => {       //name
+//     switch (action.type) {                               // Action type with reducer action
+//       case "Increment":
+//         return state + 1;
+//       case "Decrement":
+//         return state - 1;
+//       default:
+//         return state;
+//     }
+//   };
+
+//   export default Reducer;

@@ -1,14 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { useSelector } from 'react-redux'
-import { decrement, increment } from './CounterSlice'
+import { decrement, increment, incrementByAmount } from './CounterSlice'
 
 
 
 export default function IndexRedux() {
     const mystate = useSelector(state => state.counter.value)
     const dispatch = useDispatch()
-
+const [myvalue, setmyvalue] = useState(0)
     return (
         <div className="container d-flex justify-content-center mt-5 ">
             <button
@@ -20,10 +20,12 @@ export default function IndexRedux() {
             </button>
             <input
                 name="quantity"
-                type="text"
                 className="py-2 border px-3 bg-light text-dark text-center shadow"
                 value={mystate}
+               onChange={e=>setmyvalue(e.target.value)}
+               
             />
+          
             <button
                 className="py-2 border px-3 bg-dark text-white text-decoration-none shadow"
                 onClick={() => dispatch(increment())}

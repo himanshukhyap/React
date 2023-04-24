@@ -8,8 +8,8 @@ function App() {
 
   return (
     <div className="App">
-    <IndexRouting/>
-<Form/>
+      <IndexRouting />
+      <Form />
 
     </div>
   );

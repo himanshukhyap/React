@@ -4,7 +4,7 @@ import Home from './Home'
 import Blogs from './Blogs'
 import Contact from './Contact'
 import NoPage from './NoPage'
-import { Route, RouterProvider, Routes, createBrowserRouter } from 'react-router-dom'
+import { RouterProvider,  createBrowserRouter } from 'react-router-dom'
 
 function IndexRouting() {
 

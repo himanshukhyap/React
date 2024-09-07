@@ -16,16 +16,7 @@ function App() {
 
   return (
     <>
-      {/* <Part1Index/>  */}
-        <LazyLoad/>
-      {/* <LoadAbleIndex/> */}
-      {/* <MomentsCom/> */}
-      {/* <PropTpyesCom/> */}
-      {/* <ClassnameCom/> */}
-      {/* <DomPujrifyCom/> */}
-      {/* <ReactNotificationCom/> 
-       <Home/> */}
-<CryptoCom/>
+    <div>safdsf</div>
     </>
   );
 }

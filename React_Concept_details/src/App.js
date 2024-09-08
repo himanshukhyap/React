@@ -17,19 +17,15 @@
 // import UseMemo from './UseMemo/UseMemo';
 // import IndexComponent from './Use_Context/IndexComponent';
 
-import EmailPassword from "./Firebase/EmailPassword";
 import GoogleLogin from "./Firebase/GoogleLogin";
-
+import './App.css';
 
 function App() {
-
-
-
   return (
     <div className="container">
       <>
         <GoogleLogin />
-
+        
       </>
     </div>
   );

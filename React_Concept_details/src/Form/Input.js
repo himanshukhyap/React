@@ -1,29 +1,22 @@
 import React, { useState } from 'react'
-import { Form } from 'react-bootstrap'
+import EmailValidation from './EmailValidation';
 
 export default function Input() {
-    // const [text, settext] = useState("See your result")
-    var formValue = {}
-    const myChangeHandler = (event) => {
 
-        console.log(event.target.value)
-        // settext(event.target.value)
-        formValue.text=event.target.value;
-        console.log(formValue)
-    
+    var formValue = {
+        Email:{Email:"",IsValid:0}
     }
-  
+    const handleSubmit = (e) => {
+        e.preventDefault();
+            console.log(formValue.Email.IsValid)
+        
+    };
     return (
-        <div>
-            <Form className="mt-5 text-center">
-                <input onChange={myChangeHandler}
-                    type="text"
-                    GetData={formValue}
-                />
-            </Form>
-            <br />
-
-            <h5>{formValue.text}</h5>
-        </div>
+        <form onSubmit={handleSubmit}>
+            <div className="App">
+                <EmailValidation getdata={formValue} />
+            </div>
+            <button type='Submit'>Submit</button>
+        </form>
     )
 }

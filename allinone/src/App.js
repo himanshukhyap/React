@@ -1,7 +1,7 @@
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Container, Nav, Navbar } from 'react-bootstrap';
 // import { Provider } from 'react-redux';
-// import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import './App.css';
 // import Axiom from './AXIOS/Axiom';
 // import Filterdata from './DataFilter/Filterdata';
@@ -19,12 +19,19 @@
 
 import GoogleLogin from "./Firebase/GoogleLogin";
 import './App.css';
+import Dashboard from "./Firebase/Dashboard";
 
 function App() {
+  
   return (
     <div className="container">
       <>
-        <GoogleLogin />
+      <Router>
+      <Routes>
+        <Route path="/" element={<GoogleLogin />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </Router>
       </>
     </div>
   );

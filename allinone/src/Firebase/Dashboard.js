@@ -1,24 +1,22 @@
-// src/Dashboard.js
-import React from 'react';
-import useAuthStatus from './useAuthStatus';
-import useAuth from './useAuth';
+// // src/Dashboard.js
+// import React from 'react';
+// import useAuthStatus from './useAuthStatus';
+// import useAuth from './useAuth';
+// import { Link } from 'react-router-dom';
 
-function Dashboard() {
-  const { Auth_singout } = useAuth(); // Destructure the logout function
-  const { isLoggedIn, loading } = useAuthStatus(); // Check user login status
+// function Dashboard() {
+//    const { Auth_singout } = useAuth(); // Destructure the logout function
 
-  if (loading) return <p>Loading...</p>; // Show loading state
 
-  if (!isLoggedIn) return null; // Prevent render until authentication is confirmed
+//   return (
+//     <div className="dashboard-container text-center">
+//       <h1>Welcome to the Dashboard</h1>
+//       <Link to="/chat">Go to Chat</Link> {/* Link to the Chat component */}
+//       <button className="btn btn-secondary" onClick={()=>Auth_singout()}>
+//         Logout
+//       </button>
+//     </div>
+//   );
+// }
 
-  return (
-    <div className="dashboard-container text-center">
-      <h1>Welcome to the Dashboard</h1>
-      <button className="btn btn-secondary" onClick={()=>Auth_singout()}>
-        Logout
-      </button>
-    </div>
-  );
-}
-
-export default Dashboard;
+// export default Dashboard;

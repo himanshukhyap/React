@@ -7,6 +7,7 @@ import { provider } from './GoogleAuthProvider ';
 const useAuth = () => {
   const navigate = useNavigate();
 
+
   const Login = async (data) => {
     try {
         const userlogin = await signInWithEmailAndPassword(auth, data.EmailL, data.PasswordL)
@@ -30,8 +31,8 @@ const useAuth = () => {
   const googleSignIn = async () => {
     try {
       const result = await signInWithPopup(auth, provider);
-      const credential = GoogleAuthProvider.credentialFromResult(result);
-      const token = credential?.accessToken;
+      // const credential = GoogleAuthProvider.credentialFromResult(result);
+      // const token = credential?.accessToken;
       const user = result.user;
 
     //   console.log('Credential:', credential);

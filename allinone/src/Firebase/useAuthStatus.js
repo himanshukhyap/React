@@ -2,12 +2,13 @@
 import { useEffect, useState } from 'react';
 import { onAuthStateChanged } from 'firebase/auth';
 import { auth } from './FirebaseConfig';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 const useAuthStatus = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
+  const location = useLocation(); // Get the current location
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
@@ -15,21 +16,16 @@ const useAuthStatus = () => {
         setIsLoggedIn(true);
       } else {
         setIsLoggedIn(false);
-        navigate('/'); // Redirect to login if not authenticated
+        // Redirect to the same location or to login page if not authenticated
+        navigate(location.pathname !== "/" ? location.pathname : "/");
       }
       setLoading(false);
     });
 
     return () => unsubscribe();
-  }, [navigate]);
+  }, [navigate, location]);
 
   return { isLoggedIn, loading };
 };
 
 export default useAuthStatus;
-
-
-// Explanation:
-// onAuthStateChanged: This Firebase function listens for changes in the user's authentication state.
-// navigate('/login'): Redirects the user to the login page if not authenticated.
-// State Management: isLoggedIn and loading states to track the authentication status and loading state.

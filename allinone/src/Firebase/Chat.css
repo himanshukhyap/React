@@ -1,0 +1,177 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #e5ddd5; /* WhatsApp-like background */
+}
+
+.chat-window {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background-color: #efeae2; /* Light background for the chat area */
+  border-right: 1px solid #ccc;
+}
+
+.message-bubble {
+  padding: 8px 14px;
+  border-radius: 18px;
+  margin: 8px;
+  max-width: 60%;
+  font-size: 0.9rem;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.sent {
+  background-color: #dcf8c6; /* WhatsApp-like green */
+  align-self: flex-end; /* Sender's messages align to the right */
+  margin-left: auto; /* Push sender messages to the right */
+  border-bottom-right-radius: 0px;
+  color: #000;
+}
+
+.received {
+  background-color: #fff;
+  align-self: flex-start; /* Receiver's messages align to the left */
+  margin-right: auto; /* Push receiver messages to the left */
+  border-bottom-left-radius: 0px;
+  color: #000;
+}
+
+.message-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.message-sender {
+  font-weight: bold;
+  font-size: 0.75rem;
+  color: #00635d; /* Muted dark color for names */
+}
+
+.message-time {
+  font-size: 0.75rem;
+  color: #999; /* Gray for the time */
+}
+
+.file-preview {
+  margin-top: 5px;
+}
+
+.file-link {
+  font-size: 0.85rem;
+  color: #34b7f1; /* WhatsApp-like blue link */
+  text-decoration: underline;
+}
+
+.chat-input-container {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ddd;
+  justify-content: space-between;
+}
+
+.attachment-button {
+  background-color: transparent;
+  color: #555;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.attachment-button:hover {
+  color: #34b7f1; /* Hover color for attachment */
+}
+
+.chat-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  background-color: white;
+  margin-right: 15px;
+  font-size: 1rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.chat-input:focus {
+  outline: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.send-button {
+  background-color: #25d366; /* WhatsApp-like green */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.send-button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.send-button:hover {
+  background-color: #20c55c; /* Darken the green slightly on hover */
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+.delete-button {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 8px;
+  transition: color 0.3s ease;
+}
+
+.delete-button:hover {
+  color: darkred;
+}
+
+/* Ensure the button is properly aligned and doesn’t overlap text */
+.message-bubble {
+  position: relative;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #f1f0f0;
+}
+
+.message-bubble.sent {
+  background-color: #dcf8c6;
+  text-align: right;
+}
+
+.message-bubble.received {
+  background-color: #ffffff;
+}
+
+/* Style the file preview */
+.file-preview {
+  margin-top: 5px;
+}
+
+.file-link {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.file-link:hover {
+  text-decoration: underline;
+}

@@ -2,9 +2,8 @@
 import React from 'react';
 import useAuth from './useAuth';
 
-
 function GoogleLogin() {
-  const { googleSignIn } = useAuth(); // Destructure googleSignIn from useAuth
+  const { googleSignIn } = useAuth(); 
 
   return (
     <div className="login-container text-center">
